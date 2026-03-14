@@ -1,0 +1,138 @@
+
+.container{
+    display: flex;
+    height: 95vh;
+    flex-direction: row;
+    
+}
+body{
+    background-color:white;
+    color:black
+}
+.image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+.image:hover{
+    transition: all;
+    
+     
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-delay: 0.1s;
+}
+
+.a{
+    padding-left: 50px;
+    margin-top: 20px;
+    
+}
+.ac{
+    flex-direction: column;
+    
+}
+a{
+    
+    padding-top: 5px;
+    margin: 30px;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline;
+   
+}
+.abox{
+    display: inline;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    
+    
+}
+.abox:hover{
+    transform: translateY(-5px);
+    box-shadow:0  6px 18px rgba(0,0,0,0.2);
+    background-color: aqua;
+}
+a:hover{
+    color:red;
+}
+
+.para{
+      margin-top: 30px;
+      margin-bottom: 0;
+      padding-top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+.para1{
+    margin-top: 0;
+    margin-bottom: 0;
+     font-weight: bolder;
+    font-size: 40px;
+}
+p{
+    padding-top: 10px;
+    margin-bottom: 30px;
+    
+}
+#lik{
+    height: 10px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  margin-right: 15px;
+  color: black;
+  transition: 0.3s;
+
+  
+}
+.social-icons a:hover {
+  color: #0077b5; 
+  transform: scale(1.2);
+}
+
+.para:hover{
+
+    color:red;
+}
+.para1:hover{
+    text-transform: lowercase;
+    color: red;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-property: all;
+    transition-delay: 0.1s;
+   
+}
+
+.p1:hover{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-delay: 0.1s;
+}
+

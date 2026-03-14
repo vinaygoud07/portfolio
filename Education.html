@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #111;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;  
+    gap:40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #00bcd4;
+}
+
+#education {
+    padding: 120px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#education h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.edu-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.edu-card:hover {
+    transform: scale(1.05);
+}
+
+.edu-card span {
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .edu-card {
+        width: 90%;
+    }
+}
+    </style>
+
+</head>
+<body>
+
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="project1.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="education">
+        <h1>My Education</h1>
+
+        <div class="edu-card">
+            <h2>🎓 B.Tech - Computer Science</h2>
+            <p>KLH Engineering College</p>
+            <span>2025 - 2029 | 91%</span>
+        </div>
+
+        <div class="edu-card">
+            <h2>🏫 Intermediate (MPC)</h2>
+            <p>SR Junior College</p>
+            <span>2023 - 2025 | 92%</span>
+        </div>
+
+        <div class="edu-card">
+            <h2>📘 SSC</h2>
+            <p>Sahiti vidya Niketan High School</p>
+            <span>2010 - 2023 | 88%</span>
+        </div>
+
+    </section>
+
+</body>
+</html>
+</body>
+</html>

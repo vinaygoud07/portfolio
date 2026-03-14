@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: beige;
+        }
+        .nav{
+            padding-top: 20px;
+            text-align: right;
+
+        }
+        a{
+            margin-right: 50px;
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: sans-serif;
+            
+        }
+        .p{
+            margin-top: 20px;
+            padding-top: 30px;
+            text-align: center;
+        }
+        #head{
+            font-family: cursive;
+            font-weight: 900;
+            text-align: center;
+        }
+/* Container */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 220px);
+    gap: 25px;
+    padding-left: 500px;
+    padding-top: 100px;
+}
+
+/* Skill Box */
+.skill-box {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.skill-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* Icon */
+.skill-box img {
+    width: 35px;
+    height: 35px;
+}
+
+/* Text */
+.skill-box span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Make React box center */
+.react {
+    
+
+}
+.skill-box span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+    </style>
+</head>
+<body>
+    <div class="nav">
+    <a href="index.html">Home</a>
+                <a href="Education.html">Education</a>
+                <a href="project1.html">project</a>
+                <a href="contact.html">Contact</a>
+    </div> 
+    <div class="p">
+        <h2 id="head">Skills</h2>
+        <p>I am a passionate and detail-oriented developer with strong skills in front-end and back-end technologies. I have experience working with HTML, CSS, JavaScript, and modern frameworks to build responsive and user-friendly web applications. I focus on writing clean, efficient code and continuously improving my problem-solving abilities. I am always eager to learn new technologies and take on challenging projects that help me grow both technically and professionally.</p>
+    </div>
+<section class="skills">
+    <div class="skill-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+        <span>HTML</span>
+    </div>
+
+    <div class="skill-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
+        <span>CSS</span>
+    </div>
+
+    <div class="skill-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+        <span>JavaScript</span>
+    </div>
+
+    <div class="skill-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png">
+        <span>Node.js</span>
+    </div>
+
+    <div class="skill-box react">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png">
+        <span>React.js</span>
+    </div>
+    <div class="skill-box">
+        <img src="data:image/png;base64,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">
+        <span>jio</span>
+    </div>
+</section>
+</body>
+</html>
